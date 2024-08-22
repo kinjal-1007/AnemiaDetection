@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Anemia</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 3.5rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 0.3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+        .navbar-links {
+            display: flex;
+            gap: 20px; 
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .navbar p {
+            margin-left: 2rem;
+            color: white;
+            font-size: 1.5em;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 7em;
+            color: #333;
+        }
+        .cards-container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 3rem;
+        }
+        .card {
+            background-color: rgb(250, 215, 215);
+            border-radius: 10px;
+            border: 2px solid rgb(245, 100, 100);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 10px;
+            margin-bottom: 4rem;
+            flex: 1;
+            min-width: 350px;
+            max-width: 30%;
+            text-align: center;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .card p {
+            font-size: 1em;
+            color: black;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>Anemia Prediction</p>
+        <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/details">Predict</a>
+        <a href="/about">About</a>
+       </div>
+    </div>
+    <h1>Understanding medical terms: </h1>
+    <div class="cards-container">
+        <div class="card">
+            <h2>Hemoglobin</h2>
+            <p>Hemoglobin is a protein in red blood cells that carries oxygen from the lungs to the rest of the body. Ideal levels are 13.8 to 17.2 g/dL for males and 12.1 to 15.1 g/dL for females.</p>
+        </div>
+        <div class="card">
+            <h2>MCH (Mean Corpuscular Hemoglobin)</h2>
+            <p>MCH measures the average amount of hemoglobin inside a single red blood cell. Ideal levels are 27 to 31 picograms per cell.</p>
+        </div>
+        <div class="card">
+            <h2>MCHC (Mean Corpuscular Hemoglobin Concentration)</h2>
+            <p>MCHC measures the concentration of hemoglobin in a given volume of packed red blood cells. Ideal levels are 32 to 36 g/dL.</p>
+        </div>
+        <div class="card">
+            <h2>MCV (Mean Corpuscular Volume)</h2>
+            <p>MCV measures the average size of red blood cells and helps diagnose different types of anemia. Ideal levels are 80 to 100 femtoliters per cell.</p>
+        </div>
+    </div>
+</body>
+</html>

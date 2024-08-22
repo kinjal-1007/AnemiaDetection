@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnemiaSense</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('/static/anemia.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            font-size: 6em;
+            margin: 0;
+        }
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 3.5rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 0.3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-links {
+            display: flex;
+            gap: 20px; 
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .navbar p {
+            margin-left: 2rem;
+            font-size: 1.5em;
+        }
+        .home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        .home > * {
+            margin: 0; /* Remove default margin from all children */
+            padding: 0; /* Remove default padding from all children */
+        }
+        .text1 {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 1rem; /* Adjust as needed */
+        }
+        .text2 {
+            font-size: 1em;
+            margin-top: 0.5rem; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>Anemia Prediction</p>
+        <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/details">Predict</a>
+        <a href="/about">About</a>
+       </div>
+    </div>
+    <div class="home">
+    <h1>AnemiaSense</h1>
+    <p class="text1">Your Health Gaurdian</p>
+    <p class="text2">Empoweing you with early detection for better management of Anemia disease.</p>
+    </div>
+</body>
+</html>

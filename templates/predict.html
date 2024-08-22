@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #f4f4f4;
+            min-height: 100vh;
+        }
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 3.5rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 0.3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-links {
+            display: flex;
+            gap: 20px; 
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .navbar p {
+            margin-left: 2rem;
+            color: white;
+            font-size: 1.5em;
+        }
+        .container {
+            margin-top: 6rem;
+            width: 90vw;
+            max-width: 1200px;
+            position: relative;
+            text-align: center;
+        }
+        .banner-image {
+            width: 100%;
+            height: 35vh;
+            object-fit: cover;
+            border-radius: 10px;
+            position: relative;
+        }
+        .result-text {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.6em;
+            font-weight: 500;
+            color: black;
+            padding: 10px 20px;
+        }
+        .contact-details {
+            position: absolute;
+            top: 70%;
+            left: 5%;
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>Anemia Prediction</p>
+        <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/details">Predict</a>
+        <a href="/about">About</a>
+       </div>
+    </div>
+    <div class="container">
+        <img src="/static/banner.jpg" alt="Prediction Banner" class="banner-image">
+        <div class="result-text">{{ prediction_text }}</div>
+        <div class="contact-details">Contact: kinjal150922@gmail.com</div>
+    </div>
+</body>
+</html>
