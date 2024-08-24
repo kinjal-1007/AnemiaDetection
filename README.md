@@ -8,7 +8,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
-- [Google Cloud Learning Paths Completed](#Google-cloud_courses)
+- [Google Cloud Learning Paths Completed](#google-cloud-learning-paths-completed)
 
 ## Introduction
 
