@@ -46,5 +46,17 @@ Anemia Detection is a machine learning-based application designed to predict the
 
 ## Google Cloud Learning Paths Completed
 
+1. Beginner: Introduction to Generative AI Learning Path
+   
 ![beginner](https://drive.google.com/uc?export=view&id=198dllZ9mOx8ciBZBGmZJBxgwPIDkjbWt)
+
+
+2. Intermediate: Gemini for Google Cloud Learning Path
+   
+![intermediate](https://drive.google.com/uc?export=view&id=170m_0hxSI7kDaJ3_5YqQGL-wnsi5hNw1)
+
+
+3. Advanced: Generative AI for Developers Learning Path
+
+![advanced](https://drive.google.com/uc?export=view&id=18mJ63INftFVSgsaMUlnFf-3bZ7cIEFhl)
 
